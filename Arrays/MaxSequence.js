@@ -1,5 +1,5 @@
 	//Write a script that finds the maximal sequence of equal elements in an array.
-		var arr =[4,4,4, 1,2, 3, 5,9 ,5, 1, 2, 4,9,9,9, 3],
+		var arr =[4,4,4, 1,2, 3, 5,9 ,5, 1, 2, 4,9,9,9,9, 3],
 		i,
 		l,
 		temp=[],
