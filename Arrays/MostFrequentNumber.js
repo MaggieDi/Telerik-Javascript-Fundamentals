@@ -1,9 +1,10 @@
-	//Write a script that finds the maximal sequence of equal elements in an array.
-		var arr =[4,4,4, 1,2, 3, 5,9 ,5, 1, 2, 4,9,9,9, 3],
+//Write a script that finds most frequent number in an array.
+		var arr =[4, 1, 1,9,4, 2, 3, 4,9 ,4, 1, 2, 4,9,9,9,9, 3],
 		i,
 		l,
 		temp=[],
 		result=[];
+		arr.sort(function(a, b){return a-b} );
 		
 		for(i=0,l=arr.length; i<l; i+=1 ) 
 	{ 
@@ -27,5 +28,5 @@
 			temp=[]; 
 			
 		}
-	} console.log('Maximal sequence of equal elements is '+ result);
+	} console.log('Most frequent number is: ' + result);
 
