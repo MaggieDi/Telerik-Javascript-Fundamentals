@@ -4,7 +4,6 @@
 		l,
 		temp=[],
 		result=[];
-		arr.sort(function(a, b){return a-b} );
 		
 		for(i=0,l=arr.length; i<l; i+=1 ) 
 	{ 
@@ -28,5 +27,5 @@
 			temp=[]; 
 			
 		}
-	} console.log(result);
+	} console.log('Maximal sequence of equal elements is '+ result);
 
