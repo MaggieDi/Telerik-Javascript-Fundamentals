@@ -5,7 +5,7 @@ var dom = document.body.innerHTML;
 example += dom;
 
 function extractHtml(text){
-
-	console.log(text.replace(/<\/*[a-z][a-z]*>/g, ' '));
+	var rep = text.replace(/<\/*[a-z][a-z]*>/g, ' ');
+	console.log(rep.replace(/<[a-z]* [a-z]*="[a-zA-z]*.[a-z]*">/g, ' '));
 }
 extractHtml(example);
