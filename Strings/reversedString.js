@@ -2,7 +2,7 @@
 var text = 'genesis';
 function reversed(word){
 	var i,
-		result ='';
+	result ='';
  for(i=text.length -1;i>=0;i-=1){
 	result += text.charAt(i);
 
