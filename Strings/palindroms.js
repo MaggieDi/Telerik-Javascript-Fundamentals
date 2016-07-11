@@ -1,36 +1,7 @@
 
 
- var example = 'Otto abba lamal are palindromes';
- /*textLowerCase = text.toLowerCase(text);
- var splitText = textLowerCase.split(" ");
- console.log(splitText);
-
- var palindromes = '',
- reversed = '',
- result =' ',
- i,
- l,
- j;
- for(i=0,l=splitText.length;i<=l;i+=1){
-  palindromes += splitText[i];
-// console.log(palindromes);
-  for(j=palindromes.length -1;j>=0;j-=1){
-  reversed += palindromes.charAt(j);
-}
-//console.log(reversed);
-if(palindromes===reversed){
-    result += palindromes;
-    result += ', ';
-    palindromes ='';
-    reversed ='';
-   //console.log(result);
-} else{
-  palindromes ='';
-    reversed ='';
-}
- }
-//console.log(result.replace(/, /g,"."));
-console.log('Palindromes are:' + result.replace(/,/g,".")); */
+var example = 'Otto abba lamal are palindromes';
+ 
 
 function palindrome(text){
   textLowerCase = text.toLowerCase(text);
