@@ -9,8 +9,8 @@ for (i = 0, l=arr.length; i < l; i += 1) {
 
     for (j = i + 1, l=arr.length; j < l; j += 1) {
 
-        if (arr[i] > arr[j]) 
-        {
+        if (arr[i] > arr[j]){
+
             temp = arr[i];
            
             arr[i] = arr[j];
