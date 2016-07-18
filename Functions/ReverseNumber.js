@@ -1,7 +1,7 @@
 //Write a function that reverses the digits of given decimal number.
 var num,
     result;
-function  ReverseNum(num){
+function  reverseNum(num){
 	if(num){
 		num = num.toString();
 		num = num.split("").reverse().join("");
@@ -12,4 +12,4 @@ function  ReverseNum(num){
 } 
 
 }
- ReverseNum(159.12);
+ reverseNum(159.12);
