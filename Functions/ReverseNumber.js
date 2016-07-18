@@ -3,12 +3,12 @@ var num,
     result;
 function  ReverseNum(num){
 	if(num){
-	num = num.toString();
-	num = num.split("").reverse().join("");
-	result=num;
-	console.log(result);
+		num = num.toString();
+		num = num.split("").reverse().join("");
+		result=num;
+		console.log(result);
 }  else if(isNaN){
-	console.log('Invalid number');
+		console.log('Invalid number');
 } 
 
 }
