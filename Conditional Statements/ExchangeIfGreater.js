@@ -6,6 +6,6 @@ var a = 5,
 
 if (a<b) {
 	console.log(a + ' ' + b) ;
-	} else {
-		console.log(b + ' ' + a);
-	}
+} else {
+	console.log(b + ' ' + a);
+}
