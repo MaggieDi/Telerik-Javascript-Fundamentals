@@ -1,13 +1,6 @@
 
-
-
-
-
-
-
-
-
-
+//Write a function that finds the youngest person in a given array of people and prints his/hers full name. 
+//Each person has properties firstname, lastname and age.
 
 var people = [
 	{firstname:'Dragoliub', lastname:'Stoqnov',age:18},
@@ -15,7 +8,7 @@ var people = [
 	{firstname:'Liubomir', lastname:'Chardonov',age:40},
 	{firstname:'Petar', lastname:'Izmirliev;',age:10}
 ];
-//console.log(people);
+
 var myMan;
 var min = Number.MAX_VALUE;
 
