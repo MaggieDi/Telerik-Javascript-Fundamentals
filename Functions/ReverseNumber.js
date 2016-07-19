@@ -1,4 +1,5 @@
 //Write a function that reverses the digits of given decimal number.
+
 var num,
     result;
 function  reverseNum(num){
