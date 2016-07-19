@@ -28,7 +28,7 @@ function palindrome(text){
     }
  }
 
- console.log('Palindromes in this text are: ' + palindromes.replace(/[,]$/g, '.'));
+ console.log('Palindromes in this text are: ' + palindromes.replace(/[,]$/g, '. '));
 }
   
 

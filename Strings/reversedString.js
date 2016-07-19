@@ -1,4 +1,4 @@
-// Write a JavaScript function that reverses a string and returns it.
+// Write a JavaScript function that reverses a string and returns it
 
 var text = 'genesis';
 function reversed(word){
