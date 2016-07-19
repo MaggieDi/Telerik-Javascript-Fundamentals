@@ -10,4 +10,4 @@ if(d > 0){
 	console.log('Root is: ' + (-b/2*a));
 } else{
 	console.log('No real roots.');
-}
+}   
