@@ -14,10 +14,10 @@ var min = Number.MAX_VALUE;
 
 for(var human in people ){
 
-if(min > people[human].age){
-	min = people[human].age;
-	myMan = human;
-}
+	if(min > people[human].age){
+		min = people[human].age;
+		myMan = human;
+	}
 }
 
 console.log(people[myMan].firstname +' '+ people[myMan].lastname);
